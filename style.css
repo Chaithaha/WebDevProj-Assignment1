@@ -1,0 +1,54 @@
+/* style.css - Custom styles for PHP Assignment landing page */
+
+body {
+  background-color: #a2fdff;
+}
+
+h1.display-4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #7a6cf8;
+}
+
+.card-text {
+  color: #666;
+  font-size: 1rem;
+}
+
+.navbar {
+  margin-bottom: 1.5rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background: #fff
+}
+
+.card-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+} 
